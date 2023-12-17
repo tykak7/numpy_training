@@ -1,8 +1,14 @@
+##  Use NumPy to load the points.csv file, which contains on each line the coordinates of the points in 2D Euclidean space.
+
+##  Without using loops, just using NumPy functions, load the file and find the point that is closest to point [0;0].
+
+
+
 import numpy as np
 
 # Load the points from the file into the numpy array
 try:
-    points = np.loadtxt('C:\\Users\\vikto\\Desktop\\дз питон\\points.csv', delimiter=' ', dtype=float)
+    points = np.loadtxt('\\points.csv', delimiter=' ', dtype=float)
 
     if points.size == 0:
         print("No data in the file.")
