@@ -1,8 +1,8 @@
-# Vhodným způsobem zobrazte (v jednom okně) pomocí knihovny matplotlib:
+# Display in a suitable way (in one window) using the matplotlib library:
 #
-#  Histogram s počtem koků pro čísla od 1 do 10^6
-# Pro čísla od 1 do 10^6 zobrazte počet kroků
-# Zobrazte pro každé číslo v rozsahu 1-10^6  (osa X) nejvyšší dosaženou hodnotu během iterování k  číslu 1 (např. pro číslo 12 to bude hodnota 16)
+# Histogram with the number of cokes for numbers from 1 to 10^6
+# Display the number of steps for numbers from 1 to 10^6
+# Display for each number in the range 1-10^6 (X-axis) the highest value reached during the iteration to number 1 (e.g. for number 12 it will be 16)
 
 import matplotlib.pyplot as plt
 
