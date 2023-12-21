@@ -1,4 +1,4 @@
-# numpy_training
+# numpy_matplotlib_training
 
   1.   nearest_point.py
    
@@ -7,6 +7,7 @@ Using NumPy, a " **points.csv** " file containing in each line the coordinates o
 Without using loops, just using NumPy functions, the point that is closest to the point [0;0] was found.
 
   1.   matplotlib.py
+
 Display in a suitable way (in one window) using the matplotlib library:
 
 1. Histogram with the number of cokes for numbers from 1 to 10^6
